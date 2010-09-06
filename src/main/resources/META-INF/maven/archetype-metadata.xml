@@ -1,0 +1,20 @@
+<archetype-descriptor
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+	name="jasmine-archetype" partial="true">
+	<fileSets>
+		<fileSet filtered="false" packaged="false" encoding="UTF-8">
+			<directory>src/main/javascript</directory>
+			<includes>
+				<include>**/*.js</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" packaged="false" encoding="UTF-8">
+			<directory>src/test/javascript</directory>
+			<includes>
+				<include>**/*.js</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</archetype-descriptor>

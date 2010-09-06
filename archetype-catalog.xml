@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+	<archetypes>
+		<archetype>
+			<groupId>searls</groupId>
+			<artifactId>jasmine-archetype</artifactId>
+			<version>0.11.1-SNAPSHOT</version>
+			<repository>http://searls-maven-repository.googlecode.com/svn/trunk/snapshots</repository>
+			<description>Jasmine archetype for creating a project configured to use Jasmine for JavaScript unit testing.</description>
+		</archetype>
+	</archetypes>
+</archetype-catalog>
