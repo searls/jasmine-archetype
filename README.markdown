@@ -54,6 +54,7 @@ To create a new project from this archetype from within Eclipse, its archetype c
 5. In the URL field, enter:
 
     URL: http://github.com/searls/jasmine-archetype/raw/master/archetype-catalog.xml
+
     Name: jasmine-archetype catalog
 
 6. Back at the archetype selection screen, choose the newly created catalog
