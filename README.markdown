@@ -2,7 +2,7 @@ jasmine-archetype
 =================
 **A Maven Archetype for getting started with Jasmine JavaScript testing**
 
-This archetype is designed to get you up-and-running quickly with the [jasmine-maven-plugin](http://github.com/searls/jasmine-maven-plugin)
+This archetype is designed to get you up-and-running quickly with the [jasmine-maven-plugin](http://github.com/searls/jasmine-maven-plugin).
 
 Usage
 -----
@@ -34,7 +34,7 @@ To build the project and verify the Jasmine specs are executing, switch to the n
     cd my-jasmine-project
     mvn clean package
 
-If you want to experiment further, try adding a new spec to the existing `element_mover_spec.js` file, and open `target/ManualSpecRunner.html` 
+Hint: If you want to experiment further, try adding a new spec to the existing `element_mover_spec.js` file, and open `target/ManualSpecRunner.html` 
 in a browser, refreshing each time you change the source.  
 
 Bonus Hint: every time you add a new JavaScript file to the project, the runner HTML will need to  be regenerated. This will happen on every
