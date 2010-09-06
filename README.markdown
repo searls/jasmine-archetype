@@ -2,6 +2,8 @@ jasmine-archetype
 =================
 **A Maven Archetype for getting started with Jasmine JavaScript testing**
 
+This archetype is designed to get you up-and-running quickly with the [jasmine-maven-plugin](http://github.com/searls/jasmine-maven-plugin)
+
 Usage
 -----
 
@@ -50,8 +52,10 @@ To create a new project from this archetype from within Eclipse, its archetype c
 3. To the right of the catalog drop-down, click 'Configure...' 
 4. Click 'Add Remote Catalog...'
 5. In the URL field, enter:
+
     URL: http://github.com/searls/jasmine-archetype/raw/master/archetype-catalog.xml
     Name: jasmine-archetype catalog
+
 6. Back at the archetype selection screen, choose the newly created catalog
 7. Check 'Include snapshot archetypes'
 8. Select the jasmine-archetype and continue by clicking 'Next'
