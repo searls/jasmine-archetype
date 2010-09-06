@@ -13,7 +13,7 @@ Create a new Maven project that's set up to use jasmine-maven-plugin, replete wi
     -DarchetypeArtifactId=jasmine-archetype \
     -DarchetypeVersion=0.11.1-SNAPSHOT \
     -DgroupId=com.acme \
-    -DartifactId=my-first-jasmine-project \
+    -DartifactId=my-jasmine-project \
     -Dversion=0.0.1-SNAPSHOT
 
 This will create a project that looks something like this:
@@ -27,8 +27,9 @@ This will create a project that looks something like this:
             `-- javascript
                 `-- element_mover_spec.js
 
-To build the project and verify the Jasmine specs are executing, try running:
+To build the project and verify the Jasmine specs are executing, switch to the new project directory and build it:
     
+    cd my-jasmine-project
     mvn clean package
 
 If you want to experiment further, try adding a new spec to the existing `element_mover_spec.js` file, and open `target/ManualSpecRunner.html` 
