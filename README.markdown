@@ -45,15 +45,15 @@ Adding the archetype catalog to m2Eclipse
 
 To create a new project with this artifact from within Eclipse, the archetype catalog will need to be added. The process goes something like this (and hardly seems worth the effort over doing it from command line):
 
-# File -> New Project... -> Maven Project
-# Click 'Next'
-# To the right of the catalog drop-down, click 'Configure...' 
-# Click 'Add Remote Catalog...'
-# In the URL field, enter:
+1. File -> New Project... -> Maven Project
+2. Click 'Next'
+3. To the right of the catalog drop-down, click 'Configure...' 
+4. Click 'Add Remote Catalog...'
+5. In the URL field, enter:
     URL: http://github.com/searls/jasmine-archetype/raw/master/archetype-catalog.xml
     Name: jasmine-archetype catalog
-# Back at the archetype selection screen, choose the newly created catalog
-# Check 'Include snapshot archetypes'
-# Select the jasmine-archetype and continue by clicking 'Next'
+6. Back at the archetype selection screen, choose the newly created catalog
+7. Check 'Include snapshot archetypes'
+8. Select the jasmine-archetype and continue by clicking 'Next'
 
 Phew. 
