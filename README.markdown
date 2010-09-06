@@ -5,7 +5,6 @@ jasmine-archetype
 Usage
 -----
 
-**Start a fresh project**
 Create a new Maven project that's set up to use jasmine-maven-plugin, replete with example specs.
 
     mvn archetype:generate \
@@ -33,8 +32,9 @@ To build the project and verify the Jasmine specs are executing, try running:
     mvn clean package
 
 If you want to experiment further, try adding a new spec to the existing `element_mover_spec.js` file, and open `target/ManualSpecRunner.html` 
-in a browser, refreshing each time you change the source.  (Hint: if you add a new JavaScript file to the project, the runner HTML will need to 
-be regenerated. This will happen on every full Maven build (m2eclipse should also do this while auto-building), but it can also be invoked from 
-the command line with `mvn jasmine:generateManualRunner`.
+in a browser, refreshing each time you change the source.  
 
-**Add Jasmine to an existing project**
+Bonus Hint: every time you add a new JavaScript file to the project, the runner HTML will need to  be regenerated. This will happen on every
+ full Maven build (m2eclipse should also do this while auto-building), but it can also be invoked from the command line with:
+ 
+    mvn jasmine:generateManualRunner
