@@ -43,7 +43,7 @@ Bonus Hint: every time you add a new JavaScript file to the project, the runner 
 Adding the archetype catalog to m2Eclipse
 -----------------------------------------
 
-To create a new project with this artifact from within Eclipse, the archetype catalog will need to be added. The process goes something like this (and hardly seems worth the effort over doing it from command line):
+To create a new project from this archetype from within Eclipse, its archetype catalog will need to be added. The process goes something like this (and hardly seems worth the effort over doing it from command line):
 
 1. File -> New Project... -> Maven Project
 2. Click 'Next'
@@ -55,5 +55,4 @@ To create a new project with this artifact from within Eclipse, the archetype ca
 6. Back at the archetype selection screen, choose the newly created catalog
 7. Check 'Include snapshot archetypes'
 8. Select the jasmine-archetype and continue by clicking 'Next'
-
-Phew. 
+9. Make yourself a sandwich or otherwise reward yourself
