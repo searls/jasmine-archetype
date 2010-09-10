@@ -31,8 +31,7 @@ This will create a project that looks something like this:
 
 To build the project and verify the Jasmine specs are executing, switch to the new project directory and build it:
     
-    cd my-jasmine-project
-    mvn clean package
+    cd my-jasmine-project && mvn clean package
 
 Hint: If you want to experiment further, try adding a new spec to the existing `element_mover_spec.js` file, and open `target/ManualSpecRunner.html` 
 in a browser, refreshing each time you change the source.  
