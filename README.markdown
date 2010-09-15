@@ -13,7 +13,7 @@ Create a new Maven project that's set up to use jasmine-maven-plugin, replete wi
     -DarchetypeRepository=http://searls-maven-repository.googlecode.com/svn/trunk/snapshots \
     -DarchetypeGroupId=searls \
     -DarchetypeArtifactId=jasmine-archetype \
-    -DarchetypeVersion=0.11.1-SNAPSHOT \
+    -DarchetypeVersion=1.0.0-SNAPSHOT \
     -DgroupId=com.acme \
     -DartifactId=my-jasmine-project \
     -Dversion=0.0.1-SNAPSHOT
