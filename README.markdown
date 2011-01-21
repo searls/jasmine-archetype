@@ -11,7 +11,7 @@ Create a new Maven project that's set up to use jasmine-maven-plugin, replete wi
 
     mvn archetype:generate \
     -DarchetypeRepository=http://searls-maven-repository.googlecode.com/svn/trunk/snapshots \
-    -DarchetypeGroupId=searls \
+    -DarchetypeGroupId=com.github.searls \
     -DarchetypeArtifactId=jasmine-archetype \
     -DarchetypeVersion=1.0.1-SNAPSHOT \
     -DgroupId=com.acme \
