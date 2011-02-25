@@ -15,7 +15,7 @@
 			<plugin>
 				<groupId>com.github.searls</groupId>
 				<artifactId>jasmine-maven-plugin</artifactId>
-				<version>1.0.1-SNAPSHOT</version>
+				<version>1.0.1-beta-7</version>
 				<executions>
 					<execution>
 						<goals>
@@ -38,21 +38,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
-			<id>searls-maven-thirdparty</id>
-			<url>http://searls-maven-repository.googlecode.com/svn/trunk/thirdparty</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>searls-maven-releases</id>
-			<url>http://searls-maven-repository.googlecode.com/svn/trunk/releases</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>searls-maven-snapshots</id>
-			<url>http://searls-maven-repository.googlecode.com/svn/trunk/snapshots</url>
-		</pluginRepository>
-	</pluginRepositories>
 </project>
