@@ -7,7 +7,7 @@
 		<archetype>
 			<groupId>com.github.searls</groupId>
 			<artifactId>jasmine-archetype</artifactId>
-			<version>1.0.1-beta-7</version>
+			<version>1.0.1-beta-8</version>
 			<description>Jasmine archetype for creating a project configured to use Jasmine for JavaScript unit testing.</description>
 		</archetype>
 	</archetypes>
