@@ -13,14 +13,14 @@ Create a new Maven project that's set up to use jasmine-maven-plugin, replete wi
     -DarchetypeRepository=http://searls-maven-repository.googlecode.com/svn/trunk/snapshots \
     -DarchetypeGroupId=com.github.searls \
     -DarchetypeArtifactId=jasmine-archetype \
-    -DarchetypeVersion=1.2.0.0-SNAPSHOT \
+    -DarchetypeVersion=1.3.1.0-SNAPSHOT \
     -DgroupId=com.acme \
     -DartifactId=my-jasmine-project \
     -Dversion=0.0.1-SNAPSHOT
 
 If you're on Windows or if your shell doesn't like the newlines above, here's the same command in a single line:
 
-    mvn archetype:generate -DarchetypeRepository=http://searls-maven-repository.googlecode.com/svn/trunk/snapshots -DarchetypeGroupId=com.github.searls -DarchetypeArtifactId=jasmine-archetype -DarchetypeVersion=1.2.0.0-SNAPSHOT -DgroupId=com.acme -DartifactId=my-jasmine-project -Dversion=0.0.1-SNAPSHOT
+    mvn archetype:generate -DarchetypeRepository=http://searls-maven-repository.googlecode.com/svn/trunk/snapshots -DarchetypeGroupId=com.github.searls -DarchetypeArtifactId=jasmine-archetype -DarchetypeVersion=1.3.1.0-SNAPSHOT -DgroupId=com.acme -DartifactId=my-jasmine-project -Dversion=0.0.1-SNAPSHOT
 
 This will create a project that looks something like this:
 
@@ -33,17 +33,11 @@ This will create a project that looks something like this:
             `-- javascript
                 `-- element_mover_spec.js
 
-To build the project and verify the Jasmine specs are executing, switch to the new project directory and build it:
+To build the project and verify the Jasmine specs are executing, switch to the new project directory and start the server:
 
-    cd my-jasmine-project && mvn clean package
+    cd my-jasmine-project && mvn jasmine:bdd
 
-Hint: If you want to experiment further, try adding a new spec to the existing `element_mover_spec.js` file, and open `target/ManualSpecRunner.html`
-in a browser, refreshing each time you change the source.
-
-Bonus Hint: every time you add a new JavaScript file to the project, the runner HTML will need to  be regenerated. This will happen on every
- full Maven build (m2eclipse should also do this while auto-building), but it can also be invoked from the command line with:
-
-    mvn jasmine:generateManualRunner
+Then you should be able to go to http://localhost:8234 in a browser and watch your specs execute. 
 
 Adding the archetype catalog to m2Eclipse
 -----------------------------------------
