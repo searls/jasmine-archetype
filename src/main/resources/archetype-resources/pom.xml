@@ -15,7 +15,7 @@
       <plugin>
         <groupId>%{project.groupId}</groupId>
         <artifactId>jasmine-maven-plugin</artifactId>
-        <version>%{project.version}</version>
+        <version>${jasminePluginVersion}</version>
         <executions>
           <execution>
             <goals>

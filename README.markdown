@@ -7,19 +7,24 @@ This archetype is designed to get you up-and-running quickly with the [jasmine-m
 Usage
 -----
 
-Create a new Maven project that's set up to use jasmine-maven-plugin, replete with example specs.
+Create a new Maven project that's set up to use jasmine-maven-plugin, complete with example specs.
 
-    mvn archetype:generate \
-    -DarchetypeGroupId=com.github.searls \
-    -DarchetypeArtifactId=jasmine-archetype \
-    -DarchetypeVersion=RELEASE \
-    -DgroupId=com.acme \
-    -DartifactId=my-jasmine-project \
-    -Dversion=0.0.1-SNAPSHOT
+```sh
+mvn archetype:generate \
+  -DarchetypeGroupId=com.github.searls \
+  -DarchetypeArtifactId=jasmine-archetype \
+  -DarchetypeVersion=RELEASE \
+  -DgroupId=com.acme \
+  -DartifactId=my-jasmine-project \
+  -Dversion=0.0.1-SNAPSHOT
+  -DjasminePluginVersion=RELEASE
+```
 
 If you're on Windows or if your shell doesn't like the newlines above, here's the same command in a single line:
 
-    mvn archetype:generate -DarchetypeGroupId=com.github.searls -DarchetypeArtifactId=jasmine-archetype -DarchetypeVersion=RELEASE -DgroupId=com.acme -DartifactId=my-jasmine-project -Dversion=0.0.1-SNAPSHOT
+```cmd
+mvn archetype:generate -DarchetypeGroupId=com.github.searls -DarchetypeArtifactId=jasmine-archetype -DarchetypeVersion=RELEASE -DgroupId=com.acme -DartifactId=my-jasmine-project -Dversion=0.0.1-SNAPSHOT -DjasminePluginVersion=RELEASE
+```
 
 This will create a project that looks something like this:
 
